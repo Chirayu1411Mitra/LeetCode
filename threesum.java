@@ -17,8 +17,6 @@ public class threesum {
 
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 2; j < nums.length; j++) {
-
-
                 if (nums[i] + nums[i + 1] + nums[j] == 0) {
                     List<Integer> R1 = new ArrayList<>();
                     R1.add(nums[i]);
